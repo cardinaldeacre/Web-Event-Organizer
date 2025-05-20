@@ -30,13 +30,15 @@
 git clone https://github.com/cardinaldeacre/web-event-organizer.git
 ```
 
-```Frontend
+### 2. Front-End
+```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-```Backend
+### 3. Back-End
+```bash
 cd backend
 composer install
 cp .env.example .env
